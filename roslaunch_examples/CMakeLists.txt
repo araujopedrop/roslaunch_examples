@@ -25,7 +25,6 @@ endif()
 
 install(PROGRAMS
   scripts/test.py
-  scripts/test3.py
   scripts/test_node2.py
   DESTINATION lib/${PROJECT_NAME}
 )

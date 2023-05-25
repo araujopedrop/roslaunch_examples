@@ -28,7 +28,7 @@ class testNode(Node):
 
         # Action Node
         action_node = launch_ros.actions.Node(
-            package="ground_robot",
+            package="roslaunch_examples",
             executable="test_node2.py",
             name='test_node_test'
         )
